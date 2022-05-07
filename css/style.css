@@ -1,0 +1,56 @@
+h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+div {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+div {
+  background-color: white;
+}
+div ul {
+  list-style-type: disc;
+}
+div ul li {
+  background-color: lightgray;
+  padding: 20px;
+  border: 1px solid black;
+}
+div ul li a {
+  text-decoration: none;
+}
+div ul li a:hover {
+  background-color: lightsalmon;
+}
+
+.text-dark {
+  background-color: bisque;
+}
+
+.franquicias {
+  margin: 20px 20px 10px;
+}
+
+.contactenos {
+  margin: 20px 20px 10px;
+  width: 720px x 2;
+}
+
+.home {
+  margin: 10px 10px 10px;
+}
+
+.formulario, .page__title {
+  color: red;
+}
+
+.page__title {
+  background-color: navajowhite;
+}
+
+.footer.contacto {
+  width: 600px;
+}
+
+/*# sourceMappingURL=style.css.map */

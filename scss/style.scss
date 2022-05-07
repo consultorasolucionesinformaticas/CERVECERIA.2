@@ -1,0 +1,77 @@
+//importar fragmentos de otras hojas _.scss
+@import "_fonts";
+
+$dimension: 20px 20px 10px;
+
+
+div
+{
+background-color: white;
+ul
+{
+list-style-type: disc;
+
+    li {
+        background-color: lightgray;
+        padding: 20px;
+        border: 1px solid black;
+
+    a
+    {
+        text-decoration: none;
+        &:hover
+        {
+            background-color: lightsalmon;
+        }
+    }
+    }
+}
+
+}
+
+
+$anchositio: 720px;
+
+
+.text-dark
+{
+background-color: bisque;
+}
+
+.franquicias
+{
+margin: $dimension;
+}
+
+.contactenos
+{
+margin: $dimension;
+width: $anchositio x 2;
+}
+
+.home
+{
+margin: 10px 10px 10px;
+}
+
+.formulario
+{
+    color: red;
+}
+
+.page__title
+{
+@extend .formulario;
+background-color: navajowhite
+}
+
+@mixin ancho($anchomodelo)
+    
+{
+    width: $anchomodelo;
+}
+
+.footer.contacto
+{
+ @include ancho(600px);   
+}
